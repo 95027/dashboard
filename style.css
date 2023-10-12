@@ -1,0 +1,75 @@
+body{
+    background-color:lightblue;
+    text-transform: capitalize;
+    margin: 12px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    margin-top: -40px;
+}
+.list-group-item {
+    border: 0;
+    background: transparent;
+}
+.bg-light-blue{
+    background-color: rgb(224, 255, 255);
+}
+button.cardholder-btn{
+    border: 0;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: #fff;
+    white-space: nowrap;
+}
+.fs-12{
+    font-size: 12px;
+}
+i.close{
+    color: red;
+}
+.btn{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.fw-fs{
+    font-weight: 500;
+    font-size: 16px;
+}
+.add-btn{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid lightblue;
+    color: darkblue;
+}
+.dot{
+    position: relative;
+}
+.dot .circle{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 0;
+    background-color: orange;
+    border-radius: 50%;
+}
+input{
+    outline: none;
+}
+.bell-notify::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    border-radius: 50%;
+
+}
